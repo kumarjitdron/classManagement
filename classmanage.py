@@ -2,7 +2,7 @@ import mysql.connector as a
 mydb=a.connect(
 	host='localhost',
 	user='root',
-	password='9507910150',
+	password='Password',
 	database='class')
 def monitor():
 	o=int(input("1. Update Monitor  2. Check Monitor\n"))
